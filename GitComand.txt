@@ -19,6 +19,7 @@ git log
 git log --oneline
 
 git branch Leisversion
+git switch -c Leisversion
 
 git merge -m "Merge back to main from lerisversion"  leisversion
 
@@ -28,3 +29,10 @@ git merge -m "Merge back to main from lerisversion"  leisversion
 git add .
 git merge -m "Merge back to main from lerisversion"  leisversion
 git commit -m "This is my first commit"
+
+
+git remote add origin https://github.com/CraftKnightRay/Brawl.com.git
+git branch -M main
+git push -u origin main
+
+git push --all  // push all the branch to github
