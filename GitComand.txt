@@ -1,0 +1,23 @@
+git config --global user.name "Ray Z"
+git config --global user.emial airandgear@gmail.com
+git config --global init.default branch main
+
+cd d:/Dev/Day004
+git init
+		//Initialized empty Git repository in D:/Dev/Day004/.git/
+git status
+  		//On branch master
+
+
+git add .
+
+git commit -m "This is my first commit"
+
+git diff
+git log
+
+git log --oneline
+
+git branch Leisversion
+
+git merge -m "Merge back to main from lerisversion"  leisversion
