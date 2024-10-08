@@ -21,3 +21,10 @@ git log --oneline
 git branch Leisversion
 
 git merge -m "Merge back to main from lerisversion"  leisversion
+
+
+
+
+git add .
+git merge -m "Merge back to main from lerisversion"  leisversion
+git commit -m "This is my first commit"
