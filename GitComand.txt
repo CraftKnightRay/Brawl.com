@@ -36,3 +36,4 @@ git branch -M main
 git push -u origin main
 
 git push --all  // push all the branch to github
+git pull    //pull from cloud to local
